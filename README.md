@@ -1,4 +1,34 @@
-## 1. Entendimento do Conjunto de Dados
+
+## 🔍 **Project Purpose**  
+The main goal of this project is to identify suspicious transactions that could be fraudulent using **Machine Learning**, specifically unsupervised learning algorithms.  
+
+## ⚙️ **Methodology**  
+The project follows a structured flow of analysis and modeling:  
+
+1️⃣ **Exploratory Data Analysis (EDA)**  
+   - Understanding the dataset (statistics, missing values, duplicates).  
+   - Visualization of distributions and transaction patterns.  
+
+2️⃣ **Data Preprocessing**  
+   - Handling missing values and normalizing data.  
+   - Converting categorical variables into a numerical format.  
+   - Splitting the data into training and test sets.  
+
+3️⃣ **Machine Learning Algorithms Applied**  
+   - **K-Means Clustering**: Groups transactions based on similar characteristics.  
+   - **DBSCAN**: A density-based clustering algorithm useful for identifying outliers.  
+   - **Hierarchical Clustering**: Segments transactions into categories.  
+   - **Isolation Forest**: A specialized anomaly detection algorithm that classifies transactions as normal or fraudulent.  
+
+## 🎯 **Expected Results**  
+- **Efficient fraud pattern identification** without requiring a labeled dataset.  
+- **Reduction of financial losses** by detecting fraud before it causes significant impact.  
+- **Improvement in banking security**, enabling financial institutions to use these models to enhance their fraud prevention systems.  
+
+## 🏆 **Conclusion**  
+This project demonstrates how **Machine Learning techniques** can be applied to **automatically detect fraudulent transactions**, helping financial institutions **make quick and effective decisions** in identifying suspicious activities. 🚀  
+"""
+<!--## 1. Entendimento do Conjunto de Dados
 A primeira etapa do notebook envolve a exploração inicial dos dados:
 
 - **Importação das bibliotecas**: O código importa `pandas`, `matplotlib.pyplot`, `numpy` e `seaborn`, essenciais para análise de dados e visualização.
@@ -58,4 +88,4 @@ O notebook aplica diferentes técnicas para detecção de fraudes:
 - **Hierarchical Clustering**: Fornece uma visão estruturada das transações.
 - **Isolation Forest**: Destaca-se na identificação de outliers.
 
-Cada abordagem tem vantagens e limitações, podendo ser combinadas para melhores resultados.
+Cada abordagem tem vantagens e limitações, podendo ser combinadas para melhores resultados.-->
